@@ -3,6 +3,8 @@ body {
   font-family: Outfit;
 }
 
+/* ------------------ NAVBAR --------------- */
+
 #navbar {
   display: flex;
   justify-content: space-between;
@@ -32,4 +34,46 @@ body {
 
 .nav-item:hover {
   color: #6b728e;
+}
+
+/* ------------------ Nome --------------- */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#nome-div {
+  margin-top: 200px;
+}
+
+#nome-text {
+  font-size: 40px;
+  color: #6b728e;
+}
+
+#dev-text {
+  font-size: 55px;
+  color: #868ca1;
+}
+
+#icons-div {
+  display: flex;
+  justify-content: end;
+  text-align: end;
+}
+
+.nome-icons {
+  margin-top: 5px;
+  text-decoration: none;
+  font-size: 55px;
+  color: #d1d5dc;
+}
+
+#icons-ul {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
 }
