@@ -47,6 +47,7 @@ main {
 
 #nome-div {
   margin-top: 200px;
+  min-height: 100vh;
 }
 
 #nome-text {
@@ -76,4 +77,40 @@ main {
   display: flex;
   flex-direction: row;
   column-gap: 5px;
+}
+
+/* -------------- Sobre mim --------------- */
+
+#sobre-div {
+  display: flex;
+  flex-direction: row;
+  column-gap: 100px;
+  border: black;
+}
+
+#sobre-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+#sobre-title {
+  color: #d1d5dc;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.sobre-paragraph {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  max-width: 710px;
+  font-size: 18px;
+}
+
+#sobre-img {
+  height: auto;
+  width: 300px;
+  margin-right: 50px;
 }
